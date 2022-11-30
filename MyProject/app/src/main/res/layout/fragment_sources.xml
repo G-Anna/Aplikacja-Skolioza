@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sources:"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes - picture: \n https://www.flaticon.com/free-icon/notepad_201655"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education - picture: \n https://www.flaticon.com/free-icon/reading_201640"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education: \n Weiss, Hans-Rudolf, Turnbull, Deborah, Tournavitis, Nicos, Borysov, Maksym. (2016). Treatment of Scoliosis-Evidence and 	Management (Review of the Literature). Middle East Journal of Rehabilitation and Health. In Press. 10.17795/mejrh-35377.
+"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile - picture: \n https://www.flaticon.com/free-icon/girl_201634"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture of woman - Scoliometer: \n https://orthoinfo.aaos.org/globalassets/figures/a00353f01.jpg "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise 1:\n  https://nextlevelhealth.com.au/wp-content/uploads/2018/04/Scoliosis16.03.49-300x191.png "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise 2: \n https://nextlevelhealth.com.au/wp-content/uploads/2018/04/Scoliosis16.03.57-300x210.png "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise 3: https://nextlevelhealth.com.au/wp-content/uploads/2018/04/Scoliosis16.05.06-300x285.png "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

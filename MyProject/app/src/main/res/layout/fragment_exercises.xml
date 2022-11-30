@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/img_background"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Exercises"
+    android:textSize="30sp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="140dp"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold"
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/exercise1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/exercise2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        ></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/exercise3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="52dp"
+        ></ImageView>
+
+</LinearLayout>
+
+
+
+
+

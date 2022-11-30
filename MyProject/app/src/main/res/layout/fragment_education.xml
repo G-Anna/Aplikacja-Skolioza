@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:drawableLeft="@drawable/education"
+            android:paddingLeft="10dp"
+            android:drawablePadding="25dp"
+            android:text="Postural \n defects"
+            android:textSize="40dp"
+            />
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:text="Scoliosis is a three-dimensional deformity of the spine and trunk which includes lateral deviation, rotation, and a disturbance of the sagittal proﬁle. Scoliosis treatment is indicated because scoliosis may lead to negative consequences with regard to the quality of life and other health issues for some patients "
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Historically the treatment of scoliosis consists of:"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="264dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/skeleton"
+            android:drawablePadding="20dp"
+            android:text="\n - Physical rehabilitation \n (15 - 25° Cobb) \n - Brace treatment \n (20 - 40° Cobb) \n - Spinal fusion surgery \n (> 40 - 50° Cobb) "
+            android:textSize="20dp" />
+
+</LinearLayout>
+
+
+
+
+

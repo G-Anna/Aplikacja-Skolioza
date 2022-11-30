@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/photo"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_marginLeft="5dp"
+        android:layout_width="400dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="700dp"
+         >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place objects to check angle and parallelism of objects "
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+         />
+
+    <ImageView
+        android:background="@drawable/button"
+        android:id="@+id/Point1"
+        android:layout_width="15sp"
+        android:layout_height="15sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp">
+    </ImageView>
+
+    <ImageView
+        android:background="@drawable/button"
+        android:id="@+id/Point2"
+        android:layout_width="15sp"
+        android:layout_height="15sp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="80dp"
+        />
+
+
+    <ImageView
+        android:background="@drawable/button"
+        android:id="@+id/Point3"
+        android:layout_width="15sp"
+        android:layout_height="15sp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="80dp"
+
+        />
+
+    <ImageView
+        android:background="@drawable/button"
+        android:id="@+id/LineCheck1"
+        android:layout_width="2sp"
+        android:layout_height="300sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp">
+    </ImageView>
+    <ImageView
+        android:background="@drawable/button"
+        android:id="@+id/LineCheck2"
+        android:layout_width="300sp"
+        android:layout_height="2sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Change background   "
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/button"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/screen_shot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Save   "
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/button"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/screen"
+        android:background="@drawable/write_down"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="220dp"
+        />
+</RelativeLayout>

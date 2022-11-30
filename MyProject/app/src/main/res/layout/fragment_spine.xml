@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:id="@+id/drawSpine"
+    >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="330dp"
+            android:rotation="90"
+            android:text=" Draw your spine "
+            android:textColor="#000000"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/button"
+            android:rotation="90"
+            android:text=" Draw rotation "></Button>
+
+    <Button
+        android:id="@+id/start2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/button"
+        android:rotation="90"
+        android:text="  Draw shape  "></Button>
+
+    <Button
+        android:id="@+id/saveSpine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button"
+        android:rotation="90"
+        android:text=" Save "></Button>
+
+
+    <Button
+        android:id="@+id/startMoving"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text=""
+
+        ></Button>
+
+    <Button
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text=""
+        android:id="@+id/startMoving2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="80dp"
+
+        ></Button>
+
+</RelativeLayout>
+

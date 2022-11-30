@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/measure"
+    android:id="@+id/layout">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Scoliometer"
+    android:textSize="40sp"
+    android:textColor="#06066a"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="300dp"
+    android:rotation="90"
+    ></TextView>
+
+    <Button
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:background="@drawable/button"
+        android:id="@+id/RunningDot"
+        />
+</RelativeLayout>

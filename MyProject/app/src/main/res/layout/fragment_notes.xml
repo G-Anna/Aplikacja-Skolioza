@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/img_background">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:drawablePadding="20dp"
+        android:text="Notes"
+        android:textSize="60sp"
+        android:textColor="#FFFFFF"
+        android:drawableLeft="@drawable/notes"
+        />
+
+        android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/doctor"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/write_down"
+            android:hint="Who is your doctor?"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/medicine"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/write_down"
+            android:hint="Prescribed medicines:"
+            android:paddingLeft="10dp" />
+
+         <EditText
+            android:id="@+id/nextVisit"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+             android:background="@drawable/write_down"
+            android:hint="When do you have your next appointment?"
+            android:paddingLeft="10dp" />
+
+             <EditText
+            android:id="@+id/Hospital"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+                 android:background="@drawable/write_down"
+            android:hint="Where do you have your next appointment?"
+                 android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/saveInfo"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="save"
+        android:textColor="#000000"
+         />
+
+</LinearLayout>
